@@ -223,6 +223,10 @@ nav ul li a:hover::after {
     font-size: 28px;
 
     cursor: pointer;
+
+    line-height: 1;
+
+    padding: 0;
 }
 
 
@@ -499,10 +503,6 @@ nav ul li a:hover::after {
     margin-bottom: 30px;
 }
 
-
-/* =========================================================
-   BUTTONS
-   ========================================================= */
 
 /* =========================================================
    BUTTONS
@@ -1049,12 +1049,18 @@ footer p {
         padding: 15px 20px;
 
         flex-direction: row;
+
+        align-items: center;
     }
 
     .menu-btn {
         display: block;
 
         margin-left: auto;
+
+        line-height: 1;
+
+        padding: 0;
     }
 
     nav ul {
