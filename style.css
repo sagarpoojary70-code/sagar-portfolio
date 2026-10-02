@@ -466,6 +466,24 @@ body {
     .contact-card {
         width: 100%;
     }
+
+    nav ul {
+        display: none;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background: #1e293b;
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    nav ul.active {
+        display: block;
+    }
+
+    nav ul li {
+        margin: 15px 10px;
+    }
 }
 /* ---------- Footer ---------- */
 
@@ -489,4 +507,19 @@ footer p {
 
 .contact-card a:hover {
     color: white;
+}
+.menu-btn {
+    display: none;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+@media (max-width: 700px) {
+    .menu-btn {
+        display: block;
+    }
 }
